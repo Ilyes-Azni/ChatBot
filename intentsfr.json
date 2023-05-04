@@ -1,0 +1,228 @@
+{
+   "intents": [
+      {
+         "context": "",
+         "patterns": [
+            "Salut",
+            "Hey",
+            "Bonjour",
+            "Hello",
+             "salut"
+             
+         ],
+         "responses": [
+            "Hey!",
+            "Salut à vous!",
+            "Comment-allez vous",
+            "Salut-salut"
+         ],
+         "tag": "hello"
+      },
+      {
+         "context": [
+            ""
+         ],
+         "patterns": [],
+         "responses": [
+            "Je suis désolé mais je ne comprend pas",
+            "Donnez moi plus d'informations",
+            "Je ne suis pas sur de comprendre"
+         ],
+         "tag": "noanswer"
+      },
+      {
+         "context": "",
+         "patterns": [
+            "Quel est ton but ",
+            "Quel est ton travail",
+             "A quoi tu sers ? "
+         ],
+         "responses": [
+            "Je suis un assistant qui permet de vous rediriger au mieux sur le site web",
+            "Je suis là pour rendre votre vie meilleure"
+         ],
+         "tag": "job"
+      },
+      {
+         "context": "",
+         "patterns": [
+            "Quel âge as tu",
+            "T'as quel age",
+            "Quand tu es né"
+         ],
+         "responses": [
+            "Je suis né en 2023"
+         ],
+         "tag": "age"
+      },
+      {
+         "context": "",
+         "patterns": [
+            "Comment ça va aujourd'hui",
+            "Comment ça va ?"
+         ],
+         "responses": [
+            "Je vais bien et vous?",
+            "Très bien et vous?",
+            "Ca va plutôt bien et vous?"
+         ],
+         "tag": "feeling"
+      },
+      {
+         "context": "feeling",
+         "patterns": [
+            "Ca va",
+            "Je vais bien",
+            "Bien !",
+            "Super",
+            "Ca va super!",
+            "Je me sens bien",
+            "bien"
+         ],
+         "responses": [
+            "That is perfect!",
+            "Alors tout va bien!"
+         ],
+         "tag": "good"
+      },
+      {
+         "context": "feeling",
+         "patterns": [
+            "Ca va moyen",
+            "Non je suis triste",
+            "non"
+         ],
+         "responses": [
+            "J'espère que ça ira mieux..."
+         ],
+         "tag": "bad"
+      },
+      {
+         "context": "",
+         "patterns": [
+            "Qu'est ce que tu peux faire ?",
+            "Qu'est ce que je peux te demander?",
+            "Comment peux tu m'aider?"
+         ],
+         "responses": [
+            "Je peux faire presque tout ce que vous voulez !"
+         ],
+         "tag": "actions"
+      },
+      {
+         "context": "",
+         "patterns": [
+            "Es tu une fille ?",
+            "Tu es une femme?"
+         ],
+         "responses": [
+            "Oui! Je suis une femme"
+         ],
+         "tag": "women"
+      },
+      {
+         "context": "",
+         "patterns": [
+            "Es tu un homme?",
+            "Tu es un garçon"
+         ],
+         "responses": [
+            "Non je suis une femme"
+         ],
+         "tag": "men"
+      },
+      {
+         "context": "",
+         "patterns": [
+            "Merci",
+            "merci beaucoup",
+            "merci!"
+         ],
+         "responses": [
+            "C'est mon boulot",
+            "Pas de problème ^^"
+         ],
+         "tag": "thanks"
+      },
+      {
+         "context": "",
+         "patterns": [
+            "Au revoir",
+            "A bientot",
+            "Bye",
+             "Ciao"
+         ],
+         "responses": [
+            "Au revoir, à bientôt",
+            "Ciao!"
+         ],
+         "tag": "goodbye"
+      },
+      {
+         "context": "",
+         "patterns": [
+            "Ou habites tu",
+             "Tu vis où ? "
+             
+         ],
+         "responses": [
+            "Je vis dans un serveur!"
+         ],
+         "tag": "city"
+      },
+      {
+         "context": "",
+         "patterns": [
+            "Que fais tu ?",
+             "Tu fais quoi",
+             "T'as fais quoi"
+             
+         ],
+         "responses": [
+            "Je suis actuellement en train de chatter avec vous"
+         ],
+         "tag": "action"
+      },
+      {
+         "context": "",
+         "patterns": [
+            "Peux tu patienter?",
+            "Patiente s'il te plait",
+            "Tu dois patienter"
+         ],
+         "responses": [
+            "OK!"
+         ],
+         "tag": "wait"
+      },
+       {
+         "context": "",
+         "patterns": [
+            "Comment voir un module de la formation?",
+            "Où se situe la formation",
+            "La formation est payante?",
+             "La formation dure combien de temps?",
+             "Où se trouve la maquette de la formation?"
+         ],
+         "responses": [
+            "Pour voir un module de la formation vous devez scroller sur la page d'accueil jusqu'à voir les différents modules. Lorsque vous cliquez sur l'un des modules, rentrez vos ID.",
+             "La formation est hébérgée sur un autre site web accessible depuis les liens",
+             "Non, la formation n'est pas payante", 
+             "La formation dure 30 heures, à peu près 10 semaines"
+         ],
+         "tag": "help"
+      },
+            
+      {
+         "context": "",
+         "patterns": [
+            "Are you still there?",
+            "Are you here?"
+         ],
+         "responses": [
+            "Of course! Always at your service."
+         ],
+         "tag": "still there"
+      }
+   ]
+}
